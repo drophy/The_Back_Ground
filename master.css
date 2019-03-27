@@ -1,0 +1,48 @@
+/*Jumbotron*/
+#header
+{
+   background-image: url(/Users/Asus/Pictures/Wallpapers/Aurora.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position: center; */
+}
+#header h1, #header p
+{
+   color: white;
+   text-shadow: 1px 3px 10px black;
+}
+
+/*Credits button*/
+#header a:nth-of-type(1)
+{
+   border-color: rgb(73, 212, 234);
+   color: rgb(73, 212, 234); /*info color +50 in each*/
+}
+#header a:nth-of-type(1):hover
+{
+   color: white;
+   border-color:rgb(43, 182, 204);
+   background: rgb(43, 182, 204);
+}
+
+/*Like symbol*/
+.d-flex div:not(.mr-auto) a
+{
+   color: rgb(164, 164, 164);
+}
+.d-flex div:not(.mr-auto) a:hover
+{
+   color: red;
+}
+
+/*So the cards aren't on top of each other*/
+.card
+{
+   margin-bottom: 30px;
+}
+
+/*So the cards are the same size*/
+.card-text
+{
+   height: 70px; /*Nice size for 3 lines (which is the max atm)*/
+}
